@@ -1,4 +1,4 @@
-var url = 'https://en.wikipedia.org/wiki/Hern%C3%A1n_Crespo';
+var url = 'https://fbref.com/en/players/e46012d4/Kevin-De-Bruyne';
 
 fetch(url)
   .then(function(response) {
