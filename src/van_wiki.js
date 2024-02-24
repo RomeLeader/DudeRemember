@@ -1,6 +1,7 @@
 var url = 'https://fbref.com/en/players/e46012d4/Kevin-De-Bruyne';
 
-fetch(url)
+fetch(url, {
+mode: 'cors'})
   .then(function(response) {
     return response.json();
   })
