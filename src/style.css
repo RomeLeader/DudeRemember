@@ -1,0 +1,14 @@
+body,
+html {
+  background: #111;
+  color: white;
+}
+#screen {
+  display: flex;
+  flex-direction: column;
+}
+.cell {
+  width: 30px;
+  height: 30px;
+  background: #2d2f34;
+}
